@@ -1,0 +1,27 @@
+::-webkit-scrollbar {
+  display: none;
+}
+.carousel {
+  width: 100%;
+  height: 31vh;
+  padding: 25px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+.track-row {
+  background-color: rgba(30,0,0,.45)
+}
+.artist-row {
+  background-color: rgba(0,30,0,.45)
+}
+.album-row {
+  background-color: rgba(0,0,30,.45)
+}
+.row {
+  height: 99%;
+  width: 10000px;
+}
+.row img {
+  height: 100%;
+  padding: 0 15px 0 0;
+}

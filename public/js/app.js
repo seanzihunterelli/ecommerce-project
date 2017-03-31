@@ -8,8 +8,8 @@ angular.module('spotApp', ['ui.router'])
       })
       .state('searchResults', {
         templateUrl: '../views/searchResults.html',
-        // controller: '',
-        url: '/search/:query'
+        // controller: 'resultsCtrl',
+        url: '/search'
       });
 
     $urlRouterProvider
