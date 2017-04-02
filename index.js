@@ -15,9 +15,9 @@ const app = express();
 const port = 8777;
 
 //app setup
-app.use(express.static(__dirname + '/public'));
-app.use(cors());
 app.use(bodyParser.json());
+app.use(cors());
+app.use(express.static('public'));
 app.use(
   session({
     secret: config.sessionSecret,
@@ -37,4 +37,6 @@ const productCtrl = require('./controllers/productCtrl');
 const userCtrl = require('./controllers/userCtrl');
 
 //endpoints
+
 app.get('/products', productCtrl.getProducts);
+  app.get('/products/:id', productCtrl.getProduct);

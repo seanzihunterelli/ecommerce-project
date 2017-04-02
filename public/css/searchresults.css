@@ -4,11 +4,14 @@
 .carousel {
   width: 100%;
   height: 31vh;
-  padding: 25px;
+  padding: 10px;
+  padding-left: 30px;
   overflow-x: scroll;
   overflow-y: hidden;
+  color: white;
+  font-weight: 600;
 }
-.track-row {
+/*.track-row {
   background-color: rgba(30,0,0,.45)
 }
 .artist-row {
@@ -16,7 +19,7 @@
 }
 .album-row {
   background-color: rgba(0,0,30,.45)
-}
+}*/
 .row {
   height: 99%;
   width: 10000px;
