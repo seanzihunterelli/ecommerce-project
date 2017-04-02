@@ -1,8 +1,10 @@
-<div class="search">
+<!-- <div class="search">
   <i class="material-search material-icons">search</i>
   <form ng-submit="submitSearch(query)">
-    <!--Create search function that takes req and queries spotify's API, then returns results that match that -->
     <input type="text" name="search" placeholder="Search for something...">
   </form>
-
-</div>
+<button ng-click="products()" type="button" name="button">Turd</button>
+</div> -->
+  <div ng-repeat="product in products">
+    <img ng-src="{{product.image_url}}" alt="">
+  </div>

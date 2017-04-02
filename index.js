@@ -39,4 +39,4 @@ const userCtrl = require('./controllers/userCtrl');
 //endpoints
 
 app.get('/products', productCtrl.getProducts);
-  app.get('/products/:id', productCtrl.getProduct);
+app.get('/products/:id', productCtrl.getProduct);
